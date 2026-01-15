@@ -39,7 +39,7 @@ MAX_RADIUS = 5.0        # radius graph cutoff (Å)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 EPOCHS_BASELINE = 100    # epochs cho baseline (có thể tăng)
 EPOCHS_E3NN = 100       # epochs cho e3nn (mỗi epoch chậm hơn, tùy chỉnh)
-LR_BASELINE = 1e-6
+LR_BASELINE = 3e-4
 LR_E3NN = 3e-4
 SEED = 42
 
